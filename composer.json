@@ -1,21 +1,21 @@
 {
-    "name": "mocniak/propaganda-cms",
-    "description": "Skeleton of a Propaganda CMS based on symfony and doctrine",
-    "type": "project",
-    "license": "properiatary",
-    "authors": [
-        {
-            "name": "Karol Mocniak",
-            "email": "karol@mocniak.pl"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.1"
-    },
-    "autoload": {
-        "psr-0": {
-            "Mocniak\\PropagandaCMS": "src/"
-        }
+  "name": "mocniak/propaganda-cms",
+  "description": "Skeleton of a Propaganda CMS based on symfony and doctrine",
+  "type": "project",
+  "license": "properiatary",
+  "authors": [
+    {
+      "name": "Karol Mocniak",
+      "email": "karol@mocniak.pl"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mocniak\\PropagandaCMS\\": "src/"
+    }
+  }
 }

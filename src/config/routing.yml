@@ -1,0 +1,3 @@
+test:
+  path: /test
+  defaults: { _controller: Mocniak\PropagandaCMS\Infrastructure\Controller\DefaultController::testAction }

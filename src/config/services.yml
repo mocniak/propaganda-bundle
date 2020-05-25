@@ -1,0 +1,3 @@
+services:
+  Mocniak\PropagandaCMS\Infrastructure\Controller\DefaultController:
+    public: true
