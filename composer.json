@@ -1,5 +1,5 @@
 {
-  "name": "mocniak/propaganda-cms",
+  "name": "mocniak/propaganda-bundle",
   "description": "Skeleton of a Propaganda CMS based on symfony and doctrine",
   "type": "project",
   "license": "properiatary",
@@ -11,7 +11,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "symfony/symfony": "3.4.*"
   },
   "autoload": {
     "psr-4": {
