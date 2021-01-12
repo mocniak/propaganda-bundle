@@ -1,0 +1,3 @@
+services:
+  Mocniak\PropagandaBundle\Controller\DefaultController:
+    public: true

@@ -1,0 +1,3 @@
+mocniak_bundle_test:
+  path: /test
+  defaults: { _controller: Mocniak\PropagandaBundle\Controller\DefaultController::testAction }
