@@ -1,6 +1,6 @@
 <?php
 
-namespace Mocniak\PropagandaCMS\Infrastructure\Controller;
+namespace Mocniak\PropagandaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
