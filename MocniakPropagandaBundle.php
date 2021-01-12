@@ -1,7 +1,8 @@
 <?php
+namespace Mocniak\PropagandaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AcmeTestBundle extends Bundle
+class MocniakPropagandaBundle extends Bundle
 {
 }
