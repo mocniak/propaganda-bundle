@@ -2,7 +2,7 @@
   "name": "mocniak/propaganda-bundle",
   "description": "Skeleton of a Propaganda CMS based on symfony and doctrine",
   "type": "library",
-  "license": "properiatary",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Karol Mocniak",
