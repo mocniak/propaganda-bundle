@@ -13,7 +13,8 @@
   "require": {
     "php": ">=7.1",
     "symfony/symfony": "3.4.*",
-    "aptoma/twig-markdown": "^3.0"
+    "aptoma/twig-markdown": "^3.0",
+    "erusev/parsedown": "^1.7"
   },
   "autoload": {
     "psr-4": {
