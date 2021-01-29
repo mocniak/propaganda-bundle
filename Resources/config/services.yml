@@ -2,11 +2,11 @@ services:
   Mocniak\PropagandaBundle\Controller\DefaultController:
     public: true
 
-  markdown.engine:
+  Aptoma\Twig\Extension\MarkdownEngine\ParsedownEngine:
     class: Aptoma\Twig\Extension\MarkdownEngine\ParsedownEngine
 
-  twig.markdown:
+  propaganda.twig.markdown:
     class: Aptoma\Twig\Extension\MarkdownExtension
-    arguments: ['@markdown.engine']
+    arguments: ['@Aptoma\Twig\Extension\MarkdownEngine\ParsedownEngine']
     tags:
       - { name: twig.extension }
