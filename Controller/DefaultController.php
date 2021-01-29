@@ -12,4 +12,14 @@ class DefaultController extends Controller
     {
         return new Response('test');
     }
+
+    public function indexAction(Request $request)
+    {
+        return $this->render('default/index.html.twig', [
+            'articles' => [],
+            'featuredArticles' => [],
+            'events' => [],
+            'videos' => []
+        ]);
+    }
 }

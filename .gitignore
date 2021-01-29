@@ -1,3 +1,6 @@
+# this is a package
+/composer.lock
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Symfony template
 # Cache and logs (Symfony2)

@@ -1,3 +1,12 @@
 services:
   Mocniak\PropagandaBundle\Controller\DefaultController:
     public: true
+
+  markdown.engine:
+    class: Aptoma\Twig\Extension\MarkdownEngine\ParsedownEngine
+
+  twig.markdown:
+    class: Aptoma\Twig\Extension\MarkdownExtension
+    arguments: ['@markdown.engine']
+    tags:
+      - { name: twig.extension }
